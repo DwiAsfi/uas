@@ -1,0 +1,50 @@
+.box {
+	width: 320px;
+	height: 420px;
+	background: #FFFFFF;
+	left: 600px;
+	top: 159px;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px;	
+	border-radius: 25px;
+	padding-top: 100px;
+}
+.box h1 {
+	font-size: 31px;
+}
+.gambar {
+	width: 120px;
+	height: 63px;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+.box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.box input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 3px solid #EED4FA;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	font-family: 'Comic Sans MS';
+}
+.loginn {	
+	padding: 10px 17px;
+	width: 180px;
+	background-color: #ADC0EF;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 33px;
+	font-family: 'Comic Sans MS';
+	font-style: normal;
+	font-size: 15px;
+}
+.loginn:hover {
+	cursor: pointer;
+	background-color: #8FA5DB;
+}
